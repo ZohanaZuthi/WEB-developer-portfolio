@@ -60,8 +60,16 @@ nav ul{
   color: black;
 }
 .header{
+  background-color: white;
   background-image:url('../images/abstract-blue-technology-background-with-overlay-layer_291930-719.avif');
   background-size:5000px 600px;
+  background-repeat:no-repeat;
+  
+}
+.extra-pic{
+  
+  background-image:url('../images/developer.png');
+  background-position: bottom left;
   background-repeat:no-repeat;
 }
 
