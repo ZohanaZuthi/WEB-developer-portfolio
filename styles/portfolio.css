@@ -48,11 +48,12 @@ nav ul{
 }
 .section-descript{
   font-size:18px;
-  color:darkslategrey
-
+  color:darkslategrey;
+  
 }
 .secondary-bg{
   background-color:aliceblue;
+  
 }
 .dark-2{
   color: black;
@@ -94,4 +95,45 @@ nav ul{
 }
 .banner-content{
   max-width:580px;
+}
+
+.about{
+  border-radius:10px;
+  padding: 40px 100px;
+  margin:130px;
+  text-align: center;
+}
+main{
+  max-width:1200px;
+  margin: 0 auto;
+}
+main section{
+
+margin-top:130px;
+margin-bottom:130px;
+}
+
+.item-descript{
+  font-weight: bold;
+}
+.about-items{
+  display:flex;
+  justify-content: space-between;
+}
+.text-center{
+  text-align: center;
+}
+.skills{
+  padding: 40px 100px;
+
+}
+.skills-container{
+  display:flex;
+  gap:24px;
+  /* text-align: center; */
+}
+.skill{
+  padding:10px;
+  border-radius: 10px;
+  box-shadow:0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
